@@ -1,0 +1,27 @@
+.breadcrumb {
+    background-color: green;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+/*change breadcrumb links color*/
+.breadcrumb a {
+    color: #666;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+
+/*change active color*/
+.breadcrumb > .active {
+    color: #9CD05F;
+}
+
+/*change breadcrumb separator to raquo symbol*/
+.breadcrumb > li + li:before {
+    content: "\00BB";
+    color: #aaa;
+}
